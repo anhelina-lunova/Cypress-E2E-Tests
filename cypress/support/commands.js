@@ -24,12 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add("LogIn_Out", (email, password, logOut) => {
+Cypress.Commands.add("LogIn", (email, password) => {
   cy.visit("https://www.edu.goit.global/account/login");
   cy.get("#user_email").type(email);
   cy.get("#user_password").type(password);
   cy.get("[type='submit']").click();
-
-  cy.get("#open-navigation-menu-mobile").click();
-  cy.get(logOut).click();
 });
