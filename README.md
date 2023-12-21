@@ -18,4 +18,4 @@
   - VII. Натискає на неї та повертаєть на сторінку логіна
 
 ### Результат
-<video src='/videos/spec.cy.js.mp4' width=180/>
+https://github.com/anhelina-lunova/Cypress_tests/assets/120516170/5ec9b25f-521c-4058-a359-102f49ed6691
